@@ -1,17 +1,19 @@
 {
-  "name": "express_app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "name": "express-app",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "reload": "nodemon ./bin/www"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
     "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
     "nodemon": "^2.0.22"
   }
 }
