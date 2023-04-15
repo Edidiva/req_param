@@ -1,1 +1,1 @@
-run the app with "npm run reload"
+start the app with "npm run reload"
